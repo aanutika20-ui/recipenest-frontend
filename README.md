@@ -95,10 +95,5 @@ This project demonstrates my ability to integrate modern frameworks, manage auth
 
 ---
 
-## 📸 Screenshots (optional)
-Add screenshots of your app here to showcase your UI:
 
-```markdown
-<img src="assets/screenshots/home.png" width="400" alt="Homepage Screenshot" />
-<img src="assets/screenshots/dashboard.png" width="400" alt="Dashboard Screenshot" />
 
