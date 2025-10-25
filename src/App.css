@@ -1,0 +1,14 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #f9fafb; /* light neutral background */
+}
+
+/* Optional basic styling for App container */
+.App {
+  text-align: center;
+  padding: 2rem;
+}
