@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# 🧑‍🍳 RecipeNest – Chef Portal Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**RecipeNest** is a full-stack web application built to empower chefs to showcase their culinary creations and manage recipe portfolios.  
+This repository contains the **frontend** of the project — designed and implemented using **React.js**, **Bootstrap**, and **Firebase**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧠 Overview
 
-### `npm start`
+I partnered with a teammate to develop a full-stack Chef Portal web application.  
+My role focused on designing and building a **fully functional front-end interface** that meets the needs of both chefs and users.  
+This project demonstrates my ability to integrate modern frameworks, manage authentication, and create dynamic user experiences.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Tech Stack
 
-### `npm test`
+- **Framework:** React.js  
+- **Styling:** Bootstrap  
+- **Authentication & Database:** Firebase Authentication + Firestore  
+- **Tools:**  
+  - Visual Studio Code (IDE)  
+  - Postman (API Testing)  
+  - Git & GitHub (Version Control)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧩 Project Setup & Firebase Integration
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Initialized the React project using **Create React App**  
+- Configured **Firebase SDK** for Authentication and Firestore Database  
+- Integrated **Bootstrap** for rapid and responsive UI development  
+- Customized themes and utility classes for brand consistency
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧱 Core Components
 
-### `npm run eject`
+- **Homepage** – Displays featured chefs and recipes, with responsive layouts for engagement  
+- **Chef Profile Page** – Shows chef details, bios, and recipe portfolios  
+- **Recipe Portfolio Page** – Lists all recipes with brief descriptions and images  
+- **Recipe Details Page** – Displays ingredients, steps, and visuals for each recipe  
+- **Chef Dashboard** – Authenticated section allowing chefs to manage (add/edit/delete) their recipes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧭 Routing & Navigation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Implemented **React Router** for seamless single-page navigation  
+- Configured **Protected Routes** for authenticated areas (e.g., Chef Dashboard)  
+- Ensured secure access by verifying Firebase authentication state before rendering protected components  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🎨 Styling with Bootstrap
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Created a **mobile-first**, fully responsive layout using Bootstrap’s grid system  
+- Designed consistent UI components (cards, buttons, forms, and navigation bars)  
+- Customized color schemes and layout to align with RecipeNest’s brand identity  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🔗 Firebase Integration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Connected the frontend to **Firebase Firestore** for real-time data retrieval and updates  
+- Enabled **Firebase Authentication** for secure user sign-ups, logins, and profile management  
+- Implemented **real-time data syncing** for instant updates to recipes and profiles  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ✨ Interactive Features
 
-### Making a Progressive Web App
+- **Recipe Sorting, Filtering, and Pagination** – Helps users explore recipes efficiently  
+- **Social Media Sharing Buttons** – Share recipes directly to platforms like Facebook, Twitter, and WhatsApp  
+- **“Read More” Expansion** – Cleanly displays detailed recipe content upon interaction  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🧪 Testing & Validation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Navigation Testing** – Ensured smooth page transitions and functioning protected routes  
+- **Responsiveness Testing** – Verified layout performance across devices and browsers  
+- **Firebase Validation** – Tested data retrieval, recipe submission, and profile updates  
+- **UI Testing** – Checked for alignment, color consistency, and component behavior  
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📚 References
 
-### `npm run build` fails to minify
+1. [React Documentation](https://react.dev)  
+2. [Firebase Authentication](https://firebase.google.com/docs/auth)  
+3. [Visual Studio Code Docs](https://code.visualstudio.com/docs)  
+4. [Postman Documentation](https://learning.postman.com/docs/introduction/overview)  
+5. [GitHub Docs](https://docs.github.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📸 Screenshots (optional)
+Add screenshots of your app here to showcase your UI:
+
+```markdown
+<img src="assets/screenshots/home.png" width="400" alt="Homepage Screenshot" />
+<img src="assets/screenshots/dashboard.png" width="400" alt="Dashboard Screenshot" />
+
